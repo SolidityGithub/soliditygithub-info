@@ -9,6 +9,7 @@ let title: string = " ____        _ _     _ _ _          ____ _ _   _           
 
 let twitterUrl: string = "https://twitter.com/SolidityGithub";
 let githubUrl: string = "https://github.com/SolidityGithub";
+let gitcoinUrl: string = "https://gitcoin.co/grants/5603/soliditygithub";
 let emailUrl: string = "mailto:"+ "soliditygithub@protonmail.com";
 
 const Home: NextPage = () => {
@@ -28,9 +29,10 @@ const Home: NextPage = () => {
         </div>
         <br></br>
         <div className='contacts'>
-          contact us via
+          find us on
           <div className='text-sky-800 underline'><a href={twitterUrl}>twitter</a></div>
           <div className='text-sky-800 underline'><a href={githubUrl}>github</a></div>
+          <div className='text-sky-800 underline'><a href={gitcoinUrl}>gitcoin</a></div>
           <div className='text-sky-800 underline'><a href={emailUrl}>email</a></div>
         </div>
       </div>
